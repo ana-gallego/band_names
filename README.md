@@ -1,4 +1,4 @@
 # band_names
 
-Proyecto realizado siguindo curso de flutter de Fernando Herrera
+Proyecto realizado siguiendo curso de flutter de Fernando Herrera
 

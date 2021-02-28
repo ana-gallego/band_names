@@ -27,7 +27,7 @@ class SocketService with ChangeNotifier {
 
   _initConfig() {
     /// Dart client
-    this._socket = IO.io('http://e2523e31429d.ngrok.io', {
+    this._socket = IO.io('https://bands-skt-server.herokuapp.com/', {
       'transports': ['websocket'],
       'autoConnect': true
     });

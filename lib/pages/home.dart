@@ -50,7 +50,7 @@ class _HomePageState extends State<HomePage> {
                   : Icon(Icons.offline_bolt, color: Colors.red))
         ],
       ),
-      body: Column(children: [_chart(), _bandsList()]),
+      body: Column(children: [if (bands.length > 0) _chart(), _bandsList()]),
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add),
         elevation: 1,
